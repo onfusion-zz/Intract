@@ -1,0 +1,2 @@
+1.	https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+2.	https://css-tricks.com/snippets/css/media-queries-for-standard-devices/

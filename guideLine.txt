@@ -1,0 +1,37 @@
+.	https://github.com
+.	Create User there
+.	Create Repo
+
+.	https://git-scm.com/
+.	Download Git SCM (Source Code Managment)
+.	Open Terminal / CMD
+.	git --version
+.	[ git version 2.23.0.windows.1 ]
+
+
+
+================================================================================
+
+…or create a new repository on the command line
+
+	echo "# Intract" >> README.md
+
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/[UserName]/[repoName]
+	git push -u origin master
+
+…or push an existing repository from the command line
+
+	git remote add origin https://github.com/[UserName]/[repoName]
+	git push -u origin master
+
+
+COMMAND CYCLE:
+--------------
+
+.	git status
+.	git add .
+.	git commit -m "[type your commit message]"
+.	git push

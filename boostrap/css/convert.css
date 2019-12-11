@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:300,400,700,800|Raleway:300,400,600,700,800&display=swap');
+/*
+	font-family: 'Lato', sans-serif;
+
+	font-family: 'Raleway', sans-serif;
+
+	font-family: 'Open Sans', sans-serif;
+*/
+html, body {
+	scroll-behavior: smooth;
+}
+body {
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	line-height: normal;
+}
+h1 {
+
+}
+h2{
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5, h6 {
+	font-size: 14px;
+}
+p {
+	margin: 15px 0;
+}
+a {
+	color: #5ca7fb;
+	text-decoration: none;
+}
+
+
+
+/*Navbar - CSS Style*/
+.navbar {
+	margin: 0;
+}
+.navbar-brand {
+	text-transform: uppercase;
+}
+
+/*Jumbotron - CSS Style*/
+.jumbotron {
+	background-image: url("../images/intro-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 740px;
+	padding: 100px 0;
+	position: relative;
+}
+.jumbotron:before {
+	content: "";
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+.jumbotron .text-block {
+	color: #ffffff;
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 50px 0;
+	text-align: center;
+	position: relative;
+	z-index: 20;
+}
+.jumbotron h1 {
+	font-size: 82px;
+	font-weight: 700;
+	margin: 120px 0 10px 0;
+	text-transform: uppercase;
+}
+.jumbotron p {
+	font-size: 22px;
+	line-height: 32px;
+	margin: 0 0 70px 0;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap');
+/*
+	font-family: 'Open Sans', sans-serif;
+*/
+body {
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	line-height: normal;
+}
+h5, h6 {
+	font-size: 14px;
+}
+p {
+	margin: 15px 0;
+}
+img {
+	max-width: 100%;
+	/*width: 100%;*/
+}
+
+.clearfix:after,
+.container:after,
+.grid:after,
+.seprator:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.container {	
+	margin: 0 auto;
+	width: 1170px;
+	/*max-width: 1170px;*/
+}
+.grid {
+	background: #aaa;
+	padding: 25px;
+	margin: 50px 0;
+}
+.grid .grid-box {
+	float: left;
+	margin: 15px 1%;
+	width: 23%;
+}
+
+.grid-box {
+	background: grey;
+	color: white;
+	padding: 20px;
+	margin: 20px 0;
+}
+.bg-primary {
+	background: blue;
+}
+.bg-danger {
+	background: red;
+}
+.bg-warning {
+	background: orange;
+}
+.bg-success {
+	background: green;
+}
+
+/*Media Quiery*/
+@media only screen and (max-width: 1200px) {
+	body {
+		font-size: 18px;
+		line-height: normal;
+	}
+	.container {
+		width: 90%;
+	}
+	.grid {
+		background: #888;
+	}
+	img {
+		/*max-width: 100%;*/
+	}
+	.grid .grid-box {
+		width: 48%;
+	}
+	.bg-primary {
+		background: #7c7eec;
+	}
+	.bg-danger {
+		background: #a63535;
+	}
+	.bg-warning {
+		background: #b5893a;
+	}
+	.bg-success {
+		background: #325c32;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.grid .grid-box {
+		float: none;
+		margin: 15px 0;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 12px;
+	}
+	.grid .grid-box {
+		float: left;
+		margin: 15px 1%;
+		width: 48%;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.grid .grid-box {
+		float: none;
+		margin: 15px 0;
+		width: 100%;
+	}
+}
