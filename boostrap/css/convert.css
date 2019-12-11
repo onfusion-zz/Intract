@@ -31,7 +31,7 @@ h2{
 
 }
 h3 {
-
+	font-weight: 700;
 }
 h4 {
 
@@ -47,7 +47,96 @@ a {
 	text-decoration: none;
 }
 
+/* Advance Heading - CSS Style */
+.advance-heading {
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 46px;
+	padding-bottom: 10px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+}
+.advance-heading.light {
+}
+.advance-heading:after {
+	content: "";
+	background-image: linear-gradient(to right, #5ca9fb, #6372ff);
+	height: 4px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -30px;
+	width: 60px;
+}
+.advance-heading.left {
+	text-align: left;
+}
+.advance-heading.left:after {
+	left: 0;
+	margin-left: 0;
+}
+.advance-heading.right {
+	text-align: right;
+}
+.advance-heading.right:after {
+	left: auto;
+	right: 0;
+	margin-left: 0;
+}
+.advance-heading.light:after {
+	background-image: none;
+	background-color: rgba(255, 255, 255, 0.25);
+}
 
+/* Circle Icon - CSS Style */
+.icon {
+	background-image: linear-gradient(to right, #5ca9fb, #6372ff);
+	border-radius: 50%;
+	color: #ffffff;
+	display: block;
+	height: 100px;
+	font-size: 32px;
+	line-height: 50px;
+	margin: 55px auto 15px;
+	padding: 25px 15px;
+	position: relative;
+	text-align: center;
+	width: 100px;
+}
+
+/* Button - CSS Style */
+.btn {
+	border: 0;
+	border-radius: 30px;
+	cursor: pointer;
+	height: 48px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 28px;
+	min-width: 175px;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.btn.btn-primary {
+	background-image: linear-gradient(to right, #5ca9fb, #6372ff);
+	color: #ffffff;
+}
+.btn-primary:focus,
+.btn-primary:hover {
+	background: #6372ff;
+}
+.btn.btn-outline {
+	background: none;
+	border: 2px solid #ffffff;
+	height: 52px;
+}
+.btn.btn-outline:focus,
+.btn.btn-outline:hover {
+	background: none;
+}
 
 /*Navbar - CSS Style*/
 .navbar {
@@ -64,6 +153,7 @@ a {
 	background-position: center center;
 	background-size: cover;
 	height: 740px;
+	margin-bottom: 0;
 	padding: 100px 0;
 	position: relative;
 }
@@ -96,4 +186,17 @@ a {
 	font-size: 22px;
 	line-height: 32px;
 	margin: 0 0 70px 0;
+}
+
+/*Features - CSS Style*/
+.features {
+	background: #f6f6f6;
+	padding: 80px 0;
+}
+.features h3 {
+	font-size: 20px;
+	margin: 20px 0 10px 0;
+}
+.features p {
+	color: #777777;
 }
