@@ -35,3 +35,4 @@ COMMAND CYCLE:
 .	git add .
 .	git commit -m "[type your commit message]"
 .	git push
+.	git pull
