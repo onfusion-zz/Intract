@@ -471,6 +471,7 @@ a {
 	position: absolute;
 	left: 0;
 	top: 5px;
+<<<<<<< HEAD
 }
 
 /*Footer - CSS Style*/
@@ -482,4 +483,6 @@ a {
 	color: #888888;
 	line-height: 30px;
 	text-align: center;
+=======
+>>>>>>> febef42a45423f137b0377f98e35a782f96c7a6b
 }
