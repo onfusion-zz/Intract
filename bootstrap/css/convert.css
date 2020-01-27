@@ -92,7 +92,9 @@ a {
 	color: #777;
 	font-size: 18px;
 }
-
+.form-control {
+	border-radius: 0;
+}
 /* Circle Icon - CSS Style */
 .icon {
 	background-image: linear-gradient(to right, #5ca9fb, #6372ff);
@@ -107,6 +109,37 @@ a {
 	position: relative;
 	text-align: center;
 	width: 100px;
+}
+
+/* Seprator - CSS Style */
+.seprator {
+	color: #eee;
+	font-style: italic;
+	text-align: center;
+	margin: 50px 0;
+	position: relative;
+}
+.seprator:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.seprator:before {
+	content: "";
+	background: #75acfc;
+	height: 1px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.seprator span {
+	background: #75acfc;
+	border-radius: 30px;
+	display: inline-block;
+	padding: 0 15px;
+	position: relative;
+	z-index: 10;
 }
 
 /* Button - CSS Style */
@@ -289,7 +322,7 @@ a {
 	background: #f6f6f6;
 	padding: 80px 0;
 }
-.testimonials .separator {
+.testimonials .space {
 	margin-bottom: 80px;
 }
 .media {
@@ -347,4 +380,95 @@ a {
 .team-member span {
 	color: #888888;
 	display: block;
+}
+
+/*Contact - CSS Style*/
+.contact {
+	background-image: linear-gradient(to right, #6372ff, #5ca9fb);
+	color: #ffffff;
+	padding: 80px 0 50px 0;
+}
+.contact .lead {
+	color: #cbe5fe;
+	font-size: 16px;
+}
+.contact .btn-outline {
+	margin-top: 30px;
+}
+.contact .btn-outline:focus,
+.contact .btn-outline:hover {
+	color: #ffffff;
+}
+
+/*Social Widget - CSS Style*/
+.social-media {
+	color: #777;
+	margin: 20px 0;
+	position: relative;
+	text-align: center;
+}
+.social-media li {
+	display: inline-block;
+	margin: 0 20px;
+}
+.social-media a {
+	border: 2px solid #777;
+	border-radius: 50%;
+	color: #777;
+	display: inline-block;
+	font-size: 22px;
+	height: 48px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 48px;
+}
+.social-media.light a {
+	border-color: #fff;
+	color: #fff;
+}
+.social-media a[class="facebook"]:hover {
+	border: 2px solid #3b5998 ;
+	color: #3b5998;
+}
+.social-media a[class="twitter"]:hover {
+	border: 2px solid #1da1f2 ;
+	color: #1da1f2;
+}
+.social-media a[class="gplus"]:hover {
+	border: 2px solid #dd4b39 ;
+	color: #dd4b39;
+}
+.social-media a[class="youtube"]:hover {
+	border: 2px solid #f00 ;
+	color: #f00;
+}
+/*Contact Info Widget - CSS Style*/
+.widget {
+	padding: 0 15px;
+	position: relative;
+}
+.widget .title {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.contact-info {
+	color: #cbe5fe;
+	font-size: 15px;
+}
+.contact-info li {
+	margin-bottom: 20px;
+}
+.contact-info .has-icon {
+	color: #ffffff;
+	display: block;
+	font-weight: 500;
+	margin-bottom: 10px;
+	padding-left: 25px;
+	position: relative;
+}
+.contact-info .has-icon i {
+	position: absolute;
+	left: 0;
+	top: 5px;
 }
